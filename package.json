@@ -2,6 +2,7 @@
   "name": "eclipse-battle",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,5 +23,9 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "typescript": "^5"
+  },
+  "engines" : { 
+    "npm" : "9.6.7",
+    "node" : "18.17.1"
   }
 }
