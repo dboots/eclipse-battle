@@ -235,7 +235,7 @@ export default function Home() {
               {log
                 .filter((l) => l.player !== log[logStep].player)
                 .map((l, battleIdx) => (
-                  <div>
+                  <div key={`${l.player}-${battleIdx}`}>
                     <button
                       disabled={
                         !(
